@@ -2,14 +2,13 @@
 
 ## Project Overview
 
-The **Dynamic Search Algorithm for Intelligent Message Routing** project aims to optimize message delivery in client-server architectures using advanced routing algorithms. This project is particularly beneficial in high-performance network environments, enhancing both efficiency and reliability in communication.
+The **Dynamic Search Algorithm for Intelligent Message Routing** project aims to optimize message delivery using advanced routing algorithms in client-server architectures. This project is particularly beneficial in high-performance network environments, enhancing both efficiency and reliability in communication.
 
 ### Table of Contents
 
 - [Workflow](#workflow)
 - [Real-World Applications](#real-world-applications)
 - [Performance Metrics](#performance-metrics)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
@@ -47,11 +46,41 @@ The **Dynamic Search Algorithm for Intelligent Message Routing** project aims to
 - **Throughput Improvement**: Achieved a **200% increase** in message throughput.
 - **Reduced Latency**: Average message delivery time decreased by **26.7%**, resulting in faster communication.
 
-## Installation
+## Usage
 
-To set up the project locally, follow these steps:
+1. Start the server first to listen for incoming connections.
+2. Launch the client application to connect to the server and send messages.
+3. Follow the prompts to input the start and end vertices for the routing algorithm.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+## Technologies Used
+
+- **Programming Languages**: 
+  - **C++**: Primary language for implementation.
+  
+- **Networking Protocols**: 
+  - **TCP/UDP Sockets**: For reliable and efficient message transmission.
+  
+- **Algorithms**: 
+  - **Dijkstra's Algorithm**: Used for optimal pathfinding in the network graph.
+
+- **Data Structures**:
+  - **Graphs**: To represent the network and manage routing paths.
+  - **Vectors**: For dynamic storage of paths and messages.
+
+- **Development Tools**: 
+  - **g++**: GNU C++ Compiler for compiling the code.
+  - **Visual Studio Code**: IDE for development and debugging.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
